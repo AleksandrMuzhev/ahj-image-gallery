@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🖼️ Галерея изображений</h1>
+
+        <div class="add-form">
+            <div class="form-group">
+                <input type="text" id="image-name" placeholder="Название изображения..." class="form-input">
+            </div>
+            <div class="form-group">
+                <input type="text" id="image-url" placeholder="URL изображения..." class="form-input">
+            </div>
+            <div class="error-message" id="error-message"></div>
+            <button id="add-btn" class="add-btn">➕ Добавить</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <div class="empty-gallery">Нет изображений. Добавьте первое!</div>
+        </div>
+    </div>
+</body>
+
+</html>
