@@ -58,7 +58,7 @@ class Gallery {
                 this.deleteImage(image.id);
             });
 
-            this.container.appendChild(element);
+            this.container.append(element);
         });
     }
 
